@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8" />
+    <title>Remover</title>
+    <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>
+            <b>Useless Shit Remover</b>
+            <div style="font-size: 10px; color: #bbb; text-align: left; margin-top: 2px;">
+                by resue
+            </div>
+        </h1>
+
+        <!-- Bulk controls for all cleanup options. -->
+        <div class="select-buttons">
+            <button id="selectAll">Select All</button>
+            <button id="deselectAll">Deselect All</button>
+        </div>
+
+        <!-- Each switch ID maps to a setting consumed by content.js. -->
+        <div class="section">
+            <div class="switch-row">
+                <label for="uiCleanup">Remove Recommendation Bar</label>
+                <input type="checkbox" id="uiCleanup" />
+            </div>
+            <div class="switch-row">
+                <label for="removeMoreFromYouTube">Remove 'More from YouTube'</label>
+                <input type="checkbox" id="removeMoreFromYouTube" />
+            </div>
+            <div class="switch-row">
+                <label for="removeExplore">Remove 'Explore'</label>
+                <input type="checkbox" id="removeExplore" />
+            </div>
+            
+
+
+
+            <div class="switch-row">
+                <label for="removeShortsFromFeed">Remove Shorts from Feed</label>
+                <input type="checkbox" id="removeShortsFromFeed" />
+            </div> 
+            <div class="switch-row">
+                <label for="removeFooter">Remove Copyright Info</label>
+                <input type="checkbox" id="removeFooter" />
+            </div>
+            <div class="switch-row">
+                <label for="removeAISummary">Remove AI Summary</label>
+                <input type="checkbox" id="removeAISummary" />
+            </div>
+            <div class="switch-row">
+                <label for="removeRichMetadata">Remove Game/Topic Cards</label>
+                <input type="checkbox" id="removeRichMetadata" />
+            </div>
+            <div class="switch-row">
+                <label for="removeStructuredDescription">Remove Infocards from Descriptions</label>
+                <input type="checkbox" id="removeStructuredDescription" />
+            </div>
+            <div class="switch-row">
+                <label for="removeMentionedPeople">Remove 'People mentioned' from Descriptions</label>
+                <input type="checkbox" id="removeMentionedPeople" />
+            </div>
+            <div class="switch-row">
+                <label for="removeMusicShelf">Remove 'Music' Section from Descriptions</label>
+                <input type="checkbox" id="removeMusicShelf" />
+            </div>
+            <div class="switch-row">
+                <label for="removeShortsShelf">Remove 'Shorts Remix' from Descriptions</label>
+                <input type="checkbox" id="removeShortsShelf" />
+            </div>
+          
+            <div class="switch-row">
+                <label for="removeTeaserCarousel">Remove 'Live Chat Replay' Section from Descriptions</label>
+                <input type="checkbox" id="removeTeaserCarousel" />
+            </div>
+            <div class="switch-row">
+                <label for="removeTranscriptSection">Remove 'Transcript' Section from Descriptions</label>
+                <input type="checkbox" id="removeTranscriptSection" />
+            </div>
+
+            <div class="version-footer">v1.2.1</div>
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+/* Popup page */
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #cce6ff;
+    color: #000080;
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+.container {
+    width: 320px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #e0ebf8;
+    border: 2px outset #ffffff;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Popup heading */
+h1 {
+    margin: 0 0 10px;
+    padding: 8px;
+    border: 2px outset #ffffff;
+    background: linear-gradient(to bottom, #3a6ea5, #1e4b8b);
+    color: #ffffff;
+    font-size: 22px;
+    text-align: center;
+    text-shadow: 1px 1px #000080;
+}
+
+/* Bulk selection controls */
+.select-buttons {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 10px;
+}
+
+.select-buttons button {
+    flex-shrink: 0;
+    padding: 3px 6px;
+    border: 2px outset #ffffff;
+    border-radius: 3px;
+    background: linear-gradient(to bottom, #f0f8ff, #d6eaff);
+    color: #000080;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.select-buttons button:hover {
+    background: linear-gradient(to bottom, #e0f0ff, #c0e0ff);
+}
+
+/* Cleanup options */
+.section {
+    margin-top: 10px;
+}
+
+.switch-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 6px 0;
+    padding: 6px 10px;
+    border: 2px outset #ffffff;
+    background: linear-gradient(to bottom, #f0f8ff, #d6eaff);
+    font-size: 14px;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.switch-row:hover {
+    background: linear-gradient(to bottom, #e0f0ff, #c0e0ff);
+}
+
+.switch-row input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    border: 1px solid #808080;
+    border-radius: 2px;
+    background-color: #ffffff;
+    accent-color: #1e4b8b;
+    cursor: pointer;
+}
+
+/* Version label */
+.version-footer {
+    margin-top: 10px;
+    padding-left: 6px;
+    color: #555;
+    font-size: 12px;
+    font-style: italic;
+    text-align: left;
+}
