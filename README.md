@@ -18,6 +18,8 @@ It also allows you to toggle <b>YT shorts, Recommendation bar, etc, etc. </b>
 <h1>BEFORE:</h1>
 Here is an example of how much bloat is in some YT videos...
 
+<br>
+
 
 <br>
 
@@ -29,6 +31,8 @@ Here is an example of how much bloat is in some YT videos...
 
 <h1>AFTER:</h1>
 And here is what it looks like with the extension added!
+
+  <br>
 
   <br>
 
