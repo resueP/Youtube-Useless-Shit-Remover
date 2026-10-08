@@ -1,12 +1,12 @@
 {
   "manifest_version": 3,
-  "name": "YouTube Useless Shit Remover",
+  "name": "YouTube Useless Sh*t Remover",
   "version": "1.2.1",
   "description": "Removes useless stuff from YouTube.",
   "permissions": ["storage"],
   "action": {
     "default_popup": "popup.html",
-    "default_title": "YouTube Cleaner",
+    "default_title": "YouTube Useless Sh*t Remover",
     "default_icon": {
       "128": "icon128.png"
     }
