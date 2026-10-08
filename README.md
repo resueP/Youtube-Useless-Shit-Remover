@@ -4,7 +4,7 @@
 to make them simple and not bloated. 
 It also allows you to toggle <b>YT shorts, Recommendation bar, etc, etc. </b>
 
-<h3 align="center"><img width="375" height="804" alt="dadadad" src="https://github.com/user-attachments/assets/54de8913-e63f-4640-92c9-0e484505e99d" /></h3>
+<img width="378" height="799" alt="image" src="https://github.com/user-attachments/assets/bc4ee644-ca64-42a1-a1d5-08796da823e9" />
 
 
 
