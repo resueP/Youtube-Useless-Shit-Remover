@@ -4,7 +4,9 @@
 to make them simple and not bloated. 
 It also allows you to toggle <b>YT shorts, Recommendation bar, etc, etc. </b>
 
-<h4 align="center"><img width="378" height="799" alt="image" src="https://github.com/user-attachments/assets/bc4ee644-ca64-42a1-a1d5-08796da823e9" /></h4>
+
+<h4 align="center"><img width="374" height="889" alt="image" src="https://github.com/user-attachments/assets/00e3d8d8-21c2-4f6f-9284-d9af02c028d6" />
+</h4>
 
 
 
@@ -45,12 +47,12 @@ And here is what it looks like with the extension added!
 
 <h1 align="center"><b>HOW TO USE?</b></h1>
 
-To use this extension enable <b>Developer Mode</b> in extension menu of your browser, after that click <b>Load unpacked</b> and choose the folder with extension.
+To use this extension enable <b>Developer Mode</b> in extension menu of your browser, after that click <b>Load unpacked</b> and choose folder with the extension.
 
 <b>NOTE:</b> After adding the extension you have to select things you want removed from the menu!
 
 
-
+<br>
 
 
 
