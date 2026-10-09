@@ -47,7 +47,7 @@ And here is what it looks like with the extension added!
 
 To use this extension enable <b>Developer Mode</b> in extension menu of your browser, after that click <b>Load unpacked</b> and choose the folder with extension.
 
-
+<b>NOTE:</b> After adding the extension you have to select things you want removed from the menu!
 
 
 
