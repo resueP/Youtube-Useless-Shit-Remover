@@ -12,7 +12,8 @@ const toggles = [
     "removeTeaserCarousel",
     "removeTranscriptSection",
     "removeAISummary",
-    "removeRichMetadata"
+    "removeRichMetadata",
+    "removeYouTubePlayables"
 ];
 
 // Notify the content script after a saved setting changes.

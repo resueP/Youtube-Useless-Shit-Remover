@@ -139,6 +139,12 @@ function runCleaner(settings) {
     if (settings.removeRichMetadata) {
         removeMatching("ytd-metadata-row-container-renderer");
     }
+
+    if (settings.removeYouTubePlayables) {
+        removeMatching(
+            'ytd-rich-section-renderer:has(ytd-rich-item-renderer[is-mini-game-card-shelf], ytd-mini-game-card-view-model, mini-game-card-view-model, a[href^="/playables"]), ytd-rich-item-renderer[is-mini-game-card-shelf], ytd-rich-item-renderer:has(ytd-mini-game-card-view-model, mini-game-card-view-model), ytd-guide-entry-renderer:has(a[href^="/playables"])'
+        );
+    }
 }
 
 // ----------------- INITIAL LOAD AND OBSERVER -----------------
